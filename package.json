@@ -1,20 +1,15 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "ejemplo01-20.js",
   "scripts": {
-    "dev": "nodemon app.js && ejemplo01-05.js"
+    "dev": "node ejemplo01-20.js"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "nodemon": "^3.1.9"},
   "dependencies": {
-    "node": "file:",
     "prompt-sync": "^4.2.0",
     "readline-sync": "^1.4.10"
-    
   },
   "repository": {
     "type": "git",
@@ -25,5 +20,8 @@
     "url": "https://github.com/YosiMar13/proyecto01/issues"
   },
   "homepage": "https://github.com/YosiMar13/proyecto01#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
